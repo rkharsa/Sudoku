@@ -36,3 +36,4 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 <li>bouton Abandonner : Permet de quitter la partie en plein jeu</li>
 	<li>Sauvegarde des données sur un fichier texte</li>
 <ul>
+	<h2>Explication de l'algorithmie</h2>
