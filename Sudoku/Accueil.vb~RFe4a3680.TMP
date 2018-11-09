@@ -1,0 +1,36 @@
+﻿Public Class Accueil
+
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Arret.Click
+        Dim Rep As String
+        Rep = MsgBox("Voulez-vous vraiment quitter l'application?", vbYesNo, "Quitter")
+        If Rep = vbYes Then
+            End
+        End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles TitreSudoku.Click
+
+    End Sub
+
+    Private Sub LesReglesDuJeuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LesReglesDuJeuToolStripMenuItem.Click
+        MsgBox("Un sudoku classique contient neuf lignes et neuf colonnes, donc 81 cases au total. Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en veillant toujours à ce qu'un même chiffre ne figure qu'une seule fois par colonne, une seule fois par ligne, et une seule fois par carré de neuf cases.", vbOKOnly, "Regles du jeu")
+    End Sub
+
+    Private Sub CopyrigToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopyrigToolStripMenuItem.Click
+        MsgBox("le Sudoku a été conu  au vu d'un projet en IHM  par Rani Kharsa Groupe 104", vbOKOnly, "Copyright")
+    End Sub
+
+    Private Sub Accueil_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Jouer_Click(sender As Object, e As EventArgs) Handles Jouer.Click
+        Me.Hide()
+        Jeu.Show()
+    End Sub
+
+    Private Sub NomJ_DropDown(sender As Object, e As EventArgs) Handles NomJ.DropDown
+
+    End Sub
+End Class

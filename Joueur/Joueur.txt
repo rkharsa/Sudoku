@@ -1,0 +1,4 @@
+﻿jk,0,0,Facile,Echec,
+k,60,0,Intermediaire,Echec,
+hkj,6,0,Difficile,Reussi,
+ranikharsa,0,0,Intermediaire,Echec,
