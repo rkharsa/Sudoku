@@ -34,4 +34,5 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 <li>bouton Reload : Permet de recommencer la partie</li>
 <li>bouton Clear : Permet de vider la grille de sudoku durant la partie</li>
 <li>bouton Abandonner : Permet de quitter la partie en plein jeu</li>
+	<li>Sauvegarde des données sur un fichier texte</li>
 <ul>
