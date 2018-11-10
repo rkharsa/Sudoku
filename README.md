@@ -22,18 +22,28 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 <li>difficile</li>
 </ul>
 </li>
-<li>Creation de grille de sudoku personnalisé</li>
-<li>Consultation des meilleurs scores</li>
-<li>Possibilité de faire des parties
-<ul>
-<li>Avec timer : la partie prendra fin lorque la timer sera egale a 0 ou lorque la grille est remplie</li>
-<li>Sans timer : la partie prendra fin que lorsque la grille est remplie </li>
+<li>L'utilisateur a la possibilité de
+	<ul>
+		<li>Creer ses propre niveaux de sudoku</li>
+		<li>Consulter la liste des meilleurs scores</li>
+<li>faire des parties avec timer : la partie prendra fin lorque la timer sera egale a 0 ou lorque la grille est remplie
+		<li>faire des parties sans timer : la partie prendra fin que lorsque la grille est remplie</li>
+	</ul>
+	</li>
+<li>Different bouton sont mis en place chacun de ses bouton a une fonction :
+	<ul>
+<li>Bouton Play/Pause : Permet de lancer et de mettre en pause le jeu</li>
+<li>Bouton Reload : Permet de recommencer la partie</li>
+<li>Bouton Clear : Permet de vider la grille de sudoku durant la partie</li>
+<li>Bouton Abandonner : Permet de quitter la partie en plein jeu</li>
+<li>Sauvegarde des données sur un fichier texte</li>
+	</ul>
+	</li>
+	<li>La Sauvegarde
+		<ul>
+			<li>Les grilles de sudoku sont  générées a partir de données contenues dans un fichier texte. Lorsque un joueur créer une grille de sudoku une fichier texte est généré</li>
+			<li> les resultats des joueurs sont egalement enregistré dans un fichier texte</li>
+		</ul>
+	</li>
 </ul>
-</li>
-<li>bouton Play/Pause : Permet de lancer et de mettre en pause le jeu</li>
-<li>bouton Reload : Permet de recommencer la partie</li>
-<li>bouton Clear : Permet de vider la grille de sudoku durant la partie</li>
-<li>bouton Abandonner : Permet de quitter la partie en plein jeu</li>
-	<li>Sauvegarde des données sur un fichier texte</li>
-<ul>
 	<h2>Explication de l'algorithmie</h2>
