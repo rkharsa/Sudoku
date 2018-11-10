@@ -15,7 +15,7 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 
 <h2>Fonctionnalitées</h2>
 <ul>
-<li>Plusieurs mode de jeu sont proposées
+<li>Plusieurs modes de jeu sont proposées
 <ul>
 <li>facile</li>
 <li>intermédiaire</li>
@@ -24,13 +24,13 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 </li>
 <li>L'utilisateur a la possibilité de
 	<ul>
-		<li>Creer ses propre niveaux de sudoku</li>
+		<li>Créer ses propres niveaux de sudoku</li>
 		<li>Consulter la liste des meilleurs scores</li>
-<li>faire des parties avec timer : la partie prendra fin lorque la timer sera egale a 0 ou lorque la grille est remplie
+<li>faire des parties avec timer : la partie prendra fin lorsque la timer sera égale  à  0 ou lorsque la grille est remplie
 		<li>faire des parties sans timer : la partie prendra fin que lorsque la grille est remplie</li>
 	</ul>
 	</li>
-<li>Different bouton sont mis en place chacun de ses bouton a une fonction :
+<li>Differents boutons sont mis en place chacun de ses boutons à une fonction :
 	<ul>
 <li>Bouton Play/Pause : Permet de lancer et de mettre en pause le jeu</li>
 <li>Bouton Reload : Permet de recommencer la partie</li>
@@ -41,8 +41,8 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 	</li>
 	<li>La Sauvegarde
 		<ul>
-			<li>Les grilles de sudoku sont  générées a partir de données contenues dans un fichier texte. Lorsque un joueur créer une grille de sudoku une fichier texte est généré</li>
-			<li> les resultats des joueurs sont egalement enregistré dans un fichier texte</li>
+			<li>Les grilles de sudoku sont  générées à partir de données contenues dans un fichier texte. Lorsqu'un joueur crée une grille de sudoku un fichier texte est généré</li>
+			<li> les resultats des joueurs sont également enregistrés dans un fichier texte</li>
 		</ul>
 	</li>
 </ul>
