@@ -30,7 +30,7 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 		<li>faire des parties sans timer : la partie prendra fin que lorsque la grille est remplie</li>
 	</ul>
 	</li>
-<li>Differents boutons sont mis en place chacun de ses boutons à une fonction :
+<li>Differents boutons sont mis en place chacun de ses boutons ont une fonction :
 	<ul>
 <li>Bouton Play/Pause : Permet de lancer et de mettre en pause le jeu</li>
 <li>Bouton Reload : Permet de recommencer la partie</li>
@@ -47,3 +47,8 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 	</li>
 </ul>
 	<h2>Explication de l'algorithmie</h2>
+	Le sudoku est basé sur une algorithmie plus ou moins compliquer. je vais vous expliquer comment la detection d'erreur se deroule
+	<h3> Verification des Lignes </h3>
+	<h3> Verification des Colonnes </h3>
+	<h3> Verification des Regions </h3>
+	
