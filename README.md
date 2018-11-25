@@ -76,6 +76,5 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 	<li>
 	</ul>
 	<h3> Verification des Regions </h3>
-	
 	<a href="http://zupimages.net/viewer.php?id=18/47/y5c2.png"><img src="https://zupimages.net/up/18/47/y5c2.png" alt="" /></a>
 	
