@@ -49,6 +49,7 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 	<h2>Explication de l'algorithmie</h2>
 	Le sudoku est basé sur une algorithmie plus ou moins compliquer. je vais vous expliquer comment la detection d'erreur se deroule
 	<h3> Verification des Lignes </h3>
+	<a href="http://zupimages.net/viewer.php?id=18/47/cixj.png"><img src="https://zupimages.net/up/18/47/cixj.png" alt="" /></a>
 	<h3> Verification des Colonnes </h3>
 	<h3> Verification des Regions </h3>
 	
