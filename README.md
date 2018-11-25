@@ -49,8 +49,33 @@ Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en vei
 	<h2>Explication de l'algorithmie</h2>
 	Le sudoku est basé sur une algorithmie plus ou moins compliquer. je vais vous expliquer comment la detection d'erreur se deroule
 	<h3> Verification des Lignes </h3>
+	En parametre de la fonction nous avons X (Colonne) ,Y (Ligne) Et value qui correspond a  la valeurs entrer.
+	Ensuite une boucle de lecture de tableau a été faite.Cette boucle va faire varier les X  toute en gardant pour constante le Y .En gros on lit les colonnes d'une ligne .
+	L'algorithme etant deja tres lourd des conditions ont été mise en place pour limiter le nombre de traitement on verifie : 
+	<ul>
+	<li>Si la case n'est pas vide  </li>
+	<li>Si la colonne ne correspond pas a la colonne envoyé en parametre ,pour eviter de lire la valeur entrer</li>
+	<li> Si la  valeurs entrer correspond a une valeurs  de la ligne 
+	<ul> 
+		<li>Alors on met en rouge la valeurs entrer et la valeurs similaire</li>
+	</ul>
+	<li>
+	</ul>
 	<a href="http://zupimages.net/viewer.php?id=18/47/cixj.png"><img src="https://zupimages.net/up/18/47/cixj.png" alt="" /></a>
 	<h3> Verification des Colonnes </h3>
+		En parametre de la fonction nous avons X (Colonne) ,Y (Ligne) Et value qui correspond a  la valeurs entrer.
+	Ensuite une boucle de lecture de tableau a été faite.Cette boucle va faire varier les Y  toute en gardant pour constante le X .En gros on lit les lignes d'une colonne .
+	L'algorithme etant deja tres lourd des conditions ont été mise en place pour limiter le nombre de traitement on verifie : 
+	<ul>
+	<li>Si la case n'est pas vide  </li>
+	<li>Si la ligne ne correspond pas a la ligne envoyé en parametre ,pour eviter de lire la valeur entrer</li>
+	<li> Si la  valeurs entrer correspond a une valeurs  de la colonne 
+	<ul> 
+		<li>Alors on met en rouge la valeurs entrer et la valeurs similaire</li>
+	</ul>
+	<li>
+	</ul>
 	<h3> Verification des Regions </h3>
+	
 	<a href="http://zupimages.net/viewer.php?id=18/47/y5c2.png"><img src="https://zupimages.net/up/18/47/y5c2.png" alt="" /></a>
 	
